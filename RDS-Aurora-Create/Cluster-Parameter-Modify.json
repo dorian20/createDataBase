@@ -1,0 +1,125 @@
+{
+    "DBClusterParameterGroupName": "", 
+    "Parameters": [
+        {
+            "ParameterName": "binlog_checksum", 
+            "ParameterValue": "NONE", 
+            "Description": "When enabled, this variable causes the master to write a checksum for each event in the binary log.", 
+            "Source": "", 
+            "ApplyType": "", 
+            "DataType": "", 
+            "AllowedValues": "", 
+            "IsModifiable": true, 
+            "MinimumEngineVersion": "", 
+            "ApplyMethod": "pending-reboot"
+        },
+        {
+            "ParameterName": "binlog_format", 
+            "ParameterValue": "ROW", 
+            "Description": "MySQL Binary log enable at ROW", 
+            "Source": "", 
+            "ApplyType": "", 
+            "DataType": "", 
+            "AllowedValues": "", 
+            "IsModifiable": true, 
+            "MinimumEngineVersion": "", 
+            "ApplyMethod": "pending-reboot"
+        },
+        {
+            "ParameterName": "time_zone", 
+            "ParameterValue": "Asia/Seoul", 
+            "Description": "Default time zone configuration Asia/Seoul", 
+            "Source": "", 
+            "ApplyType": "", 
+            "DataType": "", 
+            "AllowedValues": "", 
+            "IsModifiable": true, 
+            "MinimumEngineVersion": "", 
+            "ApplyMethod": "pending-reboot"
+        },
+        {
+            "ParameterName": "lower_case_table_names", 
+            "ParameterValue": "1", 
+            "Description": "Default time zone configuration", 
+            "Source": "", 
+            "ApplyType": "", 
+            "DataType": "", 
+            "AllowedValues": "", 
+            "IsModifiable": true, 
+            "MinimumEngineVersion": "", 
+            "ApplyMethod": "pending-reboot"
+        },
+        {
+            "ParameterName": "character_set_client", 
+            "ParameterValue": "utf8", 
+            "Description": "Default character set UTF8", 
+            "Source": "", 
+            "ApplyType": "", 
+            "DataType": "", 
+            "AllowedValues": "", 
+            "IsModifiable": true, 
+            "MinimumEngineVersion": "", 
+            "ApplyMethod": "pending-reboot"
+        },
+        {
+            "ParameterName": "character_set_connection", 
+            "ParameterValue": "utf8", 
+            "Description": "Default character set UTF8", 
+            "Source": "", 
+            "ApplyType": "", 
+            "DataType": "", 
+            "AllowedValues": "", 
+            "IsModifiable": true, 
+            "MinimumEngineVersion": "", 
+            "ApplyMethod": "pending-reboot"
+        },
+        {
+            "ParameterName": "character_set_filesystem", 
+            "ParameterValue": "utf8", 
+            "Description": "Default character set UTF8", 
+            "Source": "", 
+            "ApplyType": "", 
+            "DataType": "", 
+            "AllowedValues": "", 
+            "IsModifiable": true, 
+            "MinimumEngineVersion": "", 
+            "ApplyMethod": "pending-reboot"
+        },
+        {
+            "ParameterName": "character_set_results", 
+            "ParameterValue": "utf8", 
+            "Description": "Default character set UTF8", 
+            "Source": "", 
+            "ApplyType": "", 
+            "DataType": "", 
+            "AllowedValues": "", 
+            "IsModifiable": true, 
+            "MinimumEngineVersion": "", 
+            "ApplyMethod": "pending-reboot"
+        },
+        {
+            "ParameterName": "character_set_server", 
+            "ParameterValue": "utf8", 
+            "Description": "Default character set UTF8", 
+            "Source": "", 
+            "ApplyType": "", 
+            "DataType": "", 
+            "AllowedValues": "", 
+            "IsModifiable": true, 
+            "MinimumEngineVersion": "", 
+            "ApplyMethod": "pending-reboot"
+        },
+        {
+            "ParameterName": "collation_connection",
+            "ParameterValue": "utf8_general_ci", 
+            "Description": "Default character set UTF8", 
+            "Source": "", 
+            "ApplyType": "", 
+            "DataType": "", 
+            "AllowedValues": "", 
+            "IsModifiable": true, 
+            "MinimumEngineVersion": "", 
+            "ApplyMethod": "pending-reboot"
+        }
+    ]
+}

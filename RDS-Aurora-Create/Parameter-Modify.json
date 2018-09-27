@@ -1,0 +1,188 @@
+{
+    "Parameters": [
+        {
+            "ApplyMethod": "pending-reboot",
+            "Description": "For query results either don't cache (=OFF), cache except for NO_CACHE (=ON), or only CACHE (=DEMAND)",
+            "DataType": "",
+            "IsModifiable": true,
+            "AllowedValues": "",
+            "Source": "",
+            "ParameterValue": "0",
+            "ParameterName": "query_cache_type",
+            "ApplyType": ""
+        },
+        {
+            "ApplyMethod": "immediate",
+            "Description": "The amount of memory allocated for caching query results.",
+            "DataType": "",
+            "IsModifiable": true,
+            "AllowedValues": "",
+            "Source": "",
+            "ParameterValue": "0",
+            "ParameterName": "query_cache_size",
+            "ApplyType": ""
+        },
+        {
+            "ApplyMethod": "immediate",
+            "Description": "Maximum allowed result length in bytes for the GROUP_CONCAT().",
+            "DataType": "",
+            "IsModifiable": true,
+            "AllowedValues": "",
+            "Source": "",
+            "ParameterValue": "3096",
+            "ParameterName": "group_concat_max_len",
+            "ApplyType": ""
+        },
+        {
+            "ApplyMethod": "immediate",
+            "Description": "The number of seconds that the MySQLd server waits for a connect packet before responding with Bad handshake.",
+            "DataType": "",
+            "IsModifiable": true,
+            "AllowedValues": "",
+            "Source": "",
+            "ParameterValue": "60",
+            "ParameterName": "connect_timeout",
+            "ApplyType": ""
+        },
+        {
+            "ApplyMethod": "immediate",
+            "Description": "Sets the default transaction isolation level.",
+            "DataType": "",
+            "IsModifiable": true,
+            "AllowedValues": "",
+            "Source": "",
+            "ParameterValue": "READ-COMMITTED",
+            "ParameterName": "tx_isolation",
+            "ApplyType": ""
+        },
+        {
+            "ApplyMethod": "immediate",
+            "Description": "The number of seconds to wait for more data from a TCP/IP connection before aborting the read.",
+            "DataType": "",
+            "IsModifiable": true,
+            "AllowedValues": "",
+            "Source": "",
+            "ParameterValue": "300",
+            "ParameterName": "net_read_timeout",
+            "ApplyType": ""
+        },
+        {
+            "ApplyMethod": "immediate",
+            "Description": "The number of seconds to wait on TCP/IP connections for a block to be written before aborting the write. ",
+            "DataType": "",
+            "IsModifiable": true,
+            "AllowedValues": "",
+            "Source": "",
+            "ParameterValue": "300",
+            "ParameterName": "net_write_timeout",
+            "ApplyType": ""
+        },
+        {
+            "ApplyMethod": "immediate",
+            "Description": "This value by default is small, to catch large (possibly incorrect) packets. Must be increased if using large BLOB columns or long strings. As big as largest BLOB. ",
+            "DataType": "",
+            "IsModifiable": true,
+            "AllowedValues": "",
+            "Source": "",
+            "ParameterValue": "67108864",
+            "ParameterName": "max_allowed_packet",
+            "ApplyType": ""
+        },
+        {
+            "ParameterName": "max_connections",
+            "ParameterValue": "5000",
+            "Description": "Default max connection 5000",
+            "Source": "",
+            "ApplyType": "",
+            "DataType": "",
+            "AllowedValues": "",
+            "IsModifiable": true,
+            "MinimumEngineVersion": "",
+            "ApplyMethod": "immediate"
+        },
+        {
+            "ParameterName": "long_query_time",
+            "ParameterValue": "0.5",
+            "Description": "Default slow query time",
+            "Source": "",
+            "ApplyType": "",
+            "DataType": "",
+            "AllowedValues": "",
+            "IsModifiable": true,
+            "MinimumEngineVersion": "",
+            "ApplyMethod": "immediate"
+        },
+        {
+            "ParameterName": "log_queries_not_using_indexes",
+            "ParameterValue": "0",
+            "Description": "Ingestion no index scan query",
+            "Source": "",
+            "ApplyType": "",
+            "DataType": "",
+            "AllowedValues": "",
+            "IsModifiable": true,
+            "MinimumEngineVersion": "",
+            "ApplyMethod": "immediate"
+        },
+        {
+            "ParameterName": "slow_query_log",
+            "ParameterValue": "1",
+            "Description": "Enabled slow query write file or table",
+            "Source": "",
+            "ApplyType": "",
+            "DataType": "",
+            "AllowedValues": "",
+            "IsModifiable": true,
+            "MinimumEngineVersion": "",
+            "ApplyMethod": "immediate"
+        },
+        {
+            "ParameterName": "log_output",
+            "ParameterValue": "FILE",
+            "Description": "Slow query log write to FILE",
+            "Source": "",
+            "ApplyType": "",
+            "DataType": "",
+            "AllowedValues": "",
+            "IsModifiable": true,
+            "MinimumEngineVersion": "",
+            "ApplyMethod": "immediate"
+        },
+        {
+            "ParameterName": "log_bin_trust_function_creators",
+            "ParameterValue": "1",
+            "Description": "Allow create function",
+            "Source": "",
+            "ApplyType": "",
+            "DataType": "",
+            "AllowedValues": "",
+            "IsModifiable": true,
+            "MinimumEngineVersion": "",
+            "ApplyMethod": "immediate"
+        },
+        {
+            "ParameterName": "sql_mode",
+            "ParameterValue": "error_for_division_by_zero,no_auto_create_user,no_zero_date,no_zero_in_date,only_full_group_by,strict_trans_tables",
+            "Description": "MySQL Sql Mode",
+            "Source": "",
+            "ApplyType": "",
+            "DataType": "",
+            "AllowedValues": "",
+            "IsModifiable": true,
+            "MinimumEngineVersion": "",
+            "ApplyMethod": "pending-reboot"
+        },
+        {
+            "ParameterName": "innodb_file_format",
+            "ParameterValue": "Barracuda",
+            "Description": "Sets InnoDB Plug-in default file format.",
+            "Source": "",
+            "ApplyType": "",
+            "DataType": "",
+            "AllowedValues": "",
+            "IsModifiable": true,
+            "MinimumEngineVersion": "",
+            "ApplyMethod": "pending-reboot"
+        }
+    ]
+}
